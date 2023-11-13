@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.media3.ui.PlayerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_movie_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:show_buffering="when_playing"
+    app:show_shuffle_button="true"
+    tools:context=".feature_movie.presentation.view.MovieActivity"
+    tools:deviceIds="tv"
+    tools:ignore="MergeRootFrame">
+</androidx.media3.ui.PlayerView>
+
+    <!--<androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/main_movie_fragment"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".feature_movie.presentation.view.MovieActivity"-->
+    <!--    tools:deviceIds="tv"-->
+    <!--    tools:ignore="MergeRootFrame">-->
+    <!--</androidx.fragment.app.FragmentContainerView>-->
